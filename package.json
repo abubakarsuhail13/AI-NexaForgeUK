@@ -3,6 +3,12 @@
   "name": "nexaforge-tech---ai-powered-solutions",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@google/genai": "^1.35.0",
     "@react-three/drei": "^9.117.0",
@@ -16,6 +22,8 @@
     "@types/react": "19.0.0",
     "@types/react-dom": "19.0.0",
     "@types/three": "^0.170.0",
-    "typescript": "^5.0.0"
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.0.0",
+    "vite": "^6.0.0"
   }
 }
