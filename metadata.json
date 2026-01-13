@@ -1,0 +1,7 @@
+{
+  "name": "NexaForge Tech - AI-Powered Solutions",
+  "description": "A cutting-edge, AI-driven platform for NexaForge Tech, featuring intelligent project consulting, automated solution blueprints, and futuristic design.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
